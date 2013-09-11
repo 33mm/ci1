@@ -11,4 +11,5 @@ application/cache/*
 */logs/!index.html
 */cache/*
 */cache/!index.html
+*/application/config/database.php
 
