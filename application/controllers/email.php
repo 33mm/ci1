@@ -13,23 +13,20 @@ class Email extends CI_Controller
 
 	function index()
 	{
-		$config = Array(
-			'protocol' => 'smtp',
-			'smtp_host' => 'ssl://smtp.googlemail.com',
-			'smtp_port' => '465',
-			'smtp_user' => 'mm@greeneggmedia.com',
-			'smtp_pass' => 'Love4life',
-			'mailtype' => 'html',
-			'charset' => 'iso-8859-1',
-		);
 
-		$this->load->library('email',$config);
+		$this->load->library('email');
 		$this->email->set_newline("\r\n");
 
 		$this->email->from("mm@greeneggmedia.com", "M M");
 		$this->email->to("mm@greeneggmedia.com");
 		$this->email->subject("ci email test");
 		$this->email->message("its working");
+
+		$path = $this->config->item('server_root');
+		$file = $path . '/ci/ci/assets/email_at/test.txt';
+
+		$this->email->attach($file);
+		
 
 		if($this->email->send()){
 			echo "Email sent";
@@ -38,8 +35,6 @@ class Email extends CI_Controller
 			show_error($this->email->print_debugger());
 		}
 
-
 	}
-
 
 }
