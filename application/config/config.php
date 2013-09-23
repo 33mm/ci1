@@ -16,6 +16,8 @@
 */
 $config['base_url']	= 'http://localhost/ci/index.php/';
 
+$config['server_root']	= $_SERVER['DOCUMENT_ROOT'];
+
 /*
 |--------------------------------------------------------------------------
 | Index File
