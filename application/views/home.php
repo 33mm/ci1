@@ -7,17 +7,14 @@
 
 	<!-- does not seem to be working -->
 	<link rel="stylesheet" type="text/css" href="<?php echo site_url('assets/bootstrap/css/bootstrap.css'); ?>" >
-
-
-
-	
+	<link rel="stylesheet" type="text/css" href="<?=base_url();?>assets/bootstrap/css/bootstrap.css">
 
 </head>
 
 <body>
 Content of the document...<br/><br/>
-<a href="http://localhost/ci1/index.php/site/store1">Visit W3Schools</a><br/><br/>
-<a href="<?=site_url('store2')?>">Visit W3Schools</a>
+<a href="http://localhost/ci/ci1/index.php/site/store1">Store1</a><br/><br/>
+<a href="<?=site_url('site/store2')?>">Store2</a><br/><br/>
 
 <?php 
 

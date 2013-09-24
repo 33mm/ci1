@@ -11,7 +11,8 @@
 	<!-- END FOXYCART FILES -->
 </head>
 <body>
-
+	<a href="<?=site_url()?>">site_url</a>
+	<br/><br/>
 	<!-- BEGIN FOXYCART FILES 1store-->
 	<!-- link example -->
 	<a href="https://1store.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">1 Add a red Cool Example</a>
