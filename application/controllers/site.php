@@ -22,11 +22,9 @@ class Site extends CI_Controller {
 
 	}
 
+	// proof of concept load and save xml
 	function xml(){
-		// $this->load->model('site_model');
-		// $data['recs'] = $this->site_model->getAll();
 		$this->load->view('xml');
-
 	}
 
 	
