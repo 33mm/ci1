@@ -21,6 +21,14 @@ class Site extends CI_Controller {
 		$this->load->view('2store');
 
 	}
+
+	function xml(){
+		// $this->load->model('site_model');
+		// $data['recs'] = $this->site_model->getAll();
+		$this->load->view('xml');
+
+	}
+
 	
 } // end class Site
 
