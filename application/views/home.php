@@ -28,7 +28,7 @@ Content of the document...<br/><br/>
 
 <!-- <table border="1"> -->
 
-<!-- <table class="table" >
+<table class="table" >
 	<tr>
 		<th>Header 1</th>
 		<th>Header 2</th>
@@ -38,8 +38,8 @@ Content of the document...<br/><br/>
 		<td><a href="http://net.tutsplus.com/tutorials/php/codeigniter-from-scratch-day-1/">Code Igniter from scratch</a></td>
 	</tr>
 	<tr>
-		<td><a href="http://www.w3schools.com">This is a link</a></td>
-		<td><a href="http://www.w3schools.com">This is a link</a></td>
+		<td><a href="http://net.tutsplus.com/articles/news/codeigniter-from-scratch-day-5-crud/">CRUD</a></td>
+		<td>The most requested tutorial for day five of our CodeIgniter screencast series was for an introduction to CRUD operations. We’ll review how to easily create, read, update, and delete records using CI’s active-records class.</td>
 	</tr>
 </table>
 
@@ -54,7 +54,7 @@ Content of the document...<br/><br/>
 			?>
 		</pre>
 	
-	</div> -->
+	</div>
 
 
 
